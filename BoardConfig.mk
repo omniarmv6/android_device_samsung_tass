@@ -31,3 +31,5 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := "<font_7x16.h>"
 ## Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/tass/bluetooth
 
+# TWRP Recovery
+DEVICE_RESOLUTION := 240x320

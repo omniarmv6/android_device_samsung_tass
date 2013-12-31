@@ -26,4 +26,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_tass.mk
+    $(LOCAL_DIR)/omni_tass.mk
