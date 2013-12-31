@@ -15,8 +15,12 @@
 # Inherit device specific files
 $(call inherit-product, device/samsung/tass/device_tass.mk)
 
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
 # Overrides
-PRODUCT_NAME := full_tass
+PRODUCT_NAME := omni_full_tass
 PRODUCT_DEVICE := tass
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-S5570
